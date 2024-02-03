@@ -170,10 +170,15 @@ section {
 }
 
 .section__pic-container {
+  transition: transform 0.3s ease;
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+.section__pic-container:hover {
+  transform: scale(1.1);
 }
 
 .section__text {
@@ -187,6 +192,8 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: #ffbc11;
+  font-weight: bold;
 }
 
 .section__text__p2 {
