@@ -56,8 +56,8 @@
     height: 83vh;
     margin-bottom: 0;
   }
-  article {
-    font-size: 1rem;
+  .text-container p, .experience-sub-title, .project-title {
+    font-size: 0.5rem;
   }
   footer nav {
     height: fit-content;
